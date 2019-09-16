@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Suite" parallel="false">
+
+
+	<parameter name="a" value="Shyam" />
+	<parameter name="b" value="5" />
+	 	
+	<test name="Testing">
+		<classes>
+			<class name="tests.SampleTest" />
+		</classes>
+	</test>
+
+</suite>
